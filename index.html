@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique</title>
+  <meta charset="UTF-8">
+  <title>Ma Boutique</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <h1>Bienvenue dans ma boutique</h1>
+  <div class="product">
+    <h2>T-shirt stylé</h2>
+    <p>Prix : 20€</p>
+    <button onclick="addToCart('T-shirt stylé', 20)">Ajouter au panier</button>
+  </div>
+
+  <h2>Panier</h2>
+  <ul id="cart"></ul>
+  <script src="script.js"></script>
 </body>
 </html>
